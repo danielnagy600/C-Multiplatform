@@ -1,0 +1,11 @@
+﻿------------------------------------------Interface--------------------------------------------------------
+- Nem tartalmaz implementációt, csak kövezelményrendszer.
+- Több interface lehet.
+- Ami benne van az publikus, ezért nem kéll kiírni.
+
+------------------------------------------Abstract class---------------------------------------------------
+- Absztrakt függvény csak absztrakt osztályokban.
+- Absztrakt osztálynak lehet nem absztrakt függványei, tulajdonságai, mezői.
+- Absztrakt osztályokat nem lehet példányosítani.
+- Tartalmazhat implementációt.
+- Csak egy ősosztályunk lehet.

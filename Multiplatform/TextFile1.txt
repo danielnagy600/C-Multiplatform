@@ -1,0 +1,4 @@
+Objektum(osztálypéldány)
+- azonosítható (identity)
+- van állapota (state)
+- van viselkedése (behaviour)
