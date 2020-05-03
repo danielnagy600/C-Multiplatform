@@ -1,0 +1,22 @@
+﻿-------------------------------------------------------------
+Létrehozás  => Constructor (Visszatérési eredménye osztálypéldány)
+Véglegesítő => Finalizer
+-------------------------------------------------------------
+.Net szemétgyűjtő (Garbage Collector)
+-------------------------------------------------------------
+Hívási hierarchia Leszármaztatásnál először az ősosztály konstruktora fut le, utána a leszármazotté.
+ctor (rövidítés)
+- paraméteres konstruktorok
+- Dependency injection (A konstuktoron keresztül állítjuk be az osztály paramétereit.)
+- property beállítását érdemes kívülről tiltani
+- private readonly bool IsConstructed; =>readonly kulcsszó azt jelenti, hogy csak a konstruktorban állíthatjuk be az értékét. !!!!!!!!!!!!!!
+- public Base(string name):this(){} kulcsszóval meg tudjuk hívni a konstruktort.
+- ReadOnly property csak olvasható => public string Email {get;} csak a konstruktoron keresztül lehet beállítani	pl public Base {Email=4}
+- public Middle(string name): base(name); => ősosztály konstruktorát hívjuk
+- ha nincs konstruktor inplementálva fordító default konstruktor
+-------------------------------------------------------------
+Finalizer
+Szándékosan az objektumunk megszűnését nem tudjuk okozni.
+- Ha szemetünk van => finalizer mechanizmus
+- Ha objektumokra megszűnik a rájuk való hivatkozás szemétgyűjtő eltakartíja a megmóriából
+- ~Base Pl osztály véglegesítő függvénye => közvetlenül nem hívható!! => Csak .Net keretrendszer tudja meghívni.

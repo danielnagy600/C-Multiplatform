@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplatform", "Multiplatform\Multiplatform.csproj", "{AF19CE9C-262E-430A-8C53-1D67AA33190B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objektumok", "Objektumok\Objektumok.csproj", "{8F4DE7C6-2D41-4C6A-AF14-11C3B2E3584B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objektumok", "Objektumok\Objektumok.csproj", "{8F4DE7C6-2D41-4C6A-AF14-11C3B2E3584B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EE6A1EA-0938-4FF1-BEF5-E03831A3A5AA}"
 	ProjectSection(SolutionItems) = preProject
